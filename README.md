@@ -46,8 +46,9 @@ In a real life scenario do I would dedicate a lot more time to this issue and wo
 full object containing the show data and cast data.
 
 #### Time Table: 
-1. Db Refactor and Application refactor to make use of the many to many relations: 3 hours.
-2. Automapper and ErroHandling: 40 mins - 1 hour
+1. Initial implementation of persistence and application code - 2 hours
+1. Db Refactor and Application refactor(add many to many relations, clean up code, implement correct joins and make parallel scrape): 2 hours.
+2. Automapper and Error Handling: 40 mins - 1 hour
 3. Refactoring and testing: 2 hours
 
 Run the project via the IDE or through the .Net CLI and dont forget to change the Connection String in the appsettings.json to your own local(usr name and password)
